@@ -1,6 +1,7 @@
 package net.kaz.tutorialmod;
 
 import net.kaz.tutorialmod.block.ModBlocks;
+import net.kaz.tutorialmod.item.ModCreativeModTabs;
 import net.kaz.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.api.distmarker.Dist;
@@ -30,6 +31,8 @@ public class TutorialMod {
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
