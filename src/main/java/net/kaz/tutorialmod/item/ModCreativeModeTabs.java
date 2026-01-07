@@ -2,6 +2,7 @@ package net.kaz.tutorialmod.item;
 
 import net.kaz.tutorialmod.TutorialMod;
 import net.kaz.tutorialmod.block.ModBlocks;
+import net.kaz.tutorialmod.item.custom.ChiseItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -32,6 +33,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BISMUTH_BLOCK);
                         output.accept(ModBlocks.BISMUTH_ORE);
                         output.accept(ModBlocks.BISMUTH_DEEPSLATE_ORE);
+                        output.accept(ModItems.CHISEL);
 
                     }).build());
 
