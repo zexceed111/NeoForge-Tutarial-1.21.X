@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "categoty": "misc",
+  "category": "misc",
   "ingredients": [
     {
       "item": "tutorialmod:bismuth_block"

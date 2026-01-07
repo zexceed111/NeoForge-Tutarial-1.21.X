@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "b": {
+    "B": {
       "item": "tutorialmod:bismuth"
     }
   },
-  "patternt": [
+  "pattern": [
     "BBB",
     "BBB",
     "BBB"
