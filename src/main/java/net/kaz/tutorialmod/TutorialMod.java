@@ -1,5 +1,6 @@
 package net.kaz.tutorialmod;
 
+import com.mojang.logging.LogUtils;
 import net.kaz.tutorialmod.block.ModBlocks;
 import net.kaz.tutorialmod.item.ModCreativeModeTabs;
 import net.kaz.tutorialmod.item.ModItems;
@@ -16,11 +17,13 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(TutorialMod.MOD_ID)
 public class TutorialMod {
     public static final String MOD_ID = "tutorialmod";
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
