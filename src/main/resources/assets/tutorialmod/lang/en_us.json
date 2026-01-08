@@ -14,5 +14,11 @@
   "block.tutorialmod.magic_block": "Magic Block",
 
   "creativetab.tutorialmod.bismuth_items": "Bismuth Items",
-  "creativetab.tutorialmod.bismuth_blocks": "Bismuth Blocks"
+  "creativetab.tutorialmod.bismuth_blocks": "Bismuth Blocks",
+
+  "tooltip.tutorialmod.magic_block.tooltip": "This block is very §9PIZDEC§r kak magic",
+  "tooltip.tutorialmod.chisel.shift_down": "Ну я хуй знаю, красава нашел посхалку)",
+  "tooltip.tutorialmod.chisel": "Меняет §9блоки§r местами. Типо золото на камень, но не на оборот)",
+
+  "tooltip.tutorialmod.radish": "Редиска, ее надо кушать!"
 }
